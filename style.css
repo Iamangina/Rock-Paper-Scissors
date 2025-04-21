@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./back.jpg");
+    background-size: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 900px;
+    background-image:url("./background.png");
+    background-size: cover;
+    border: solid 10px #f8b394;
+    border-radius: 20px;
+
+}
+.title{
+    font-size: 50px;
+    color: #f8b394;
+    background-color: #ffeddf;
+    padding: 10px;
+    border: solid 10px #f8b394;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.info{
+    font-size: 35px;
+    color: #f8b394;
+    text-align: center;
+}
+.restInfo{
+    font-size: 25px;
+    color: #f8b394;
+}
+.images{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: solid 5px #f8b394;
+    border-radius: 10px;
+    background-color: #ffeddf;
+    color: #f8b394;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover {
+    box-shadow: 0 0 35px #f27f49; 
+    transition: box-shadow .5s ease;
+}
+.players{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    color: #f8b394;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxPlayer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border: solid 5px #f8b394;
+    border-radius: 10px;
+    background-color: #ffeddf;
+    margin: 10px;
+    font-size: 20px; 
+}
+.score{
+    text-align: center;
+    border: solid 5px #f8b394;
+    border-radius: 10px;
+    width: 130px;
+    height: auto;
+    background-color: #ffeddf;
+}
+.result{
+    width: 500px;
+    height: auto;
+    background-color: #ffeddf;
+    border: solid 5px #f8b394;
+    border-radius: 10px;
+    color: #f8b394;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}

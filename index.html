@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+        <h3 class="info">Choose your weapon
+            <br><span class="restInfo">First to score 5 points wins the game</span></h3>
+        <ul class="images">
+            <li class="button">
+                <button class="rock" data-choice="rock"><img src="./rock.jpg" width="130px" height="auto"></button>
+                <span>ROCK</span>
+            </li>
+            <li class="button">
+                <button class="paper" data-choice="paper"><img src="./paper.jpg" width="130px" height="auto"></button>
+                <span>PAPER</span>
+            </li>
+            <li class="button">
+                <button class="scissors" data-choice="scissors"><img src="./scissors.jpg" width="130px" height="auto"></button>
+                <span>SCISSORS</span>
+            </li>
+        </ul>
+        <ul class="players">
+            <div class="boxPlayer"><li class="player"><span>PLAYER</span></li><span class="score">SCORE:</span></div>
+            <span class="vs">VS</span>
+            <div class="boxPlayer"><li class="player"><span>COMPUTER</span></li><span class="score">SCORE:</span></div>
+        </ul>
+        <span class="result"> RESULT: </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
