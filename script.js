@@ -1,3 +1,15 @@
+const nameInput= document.querySelector('#playerNameInput');
+const startButton= document.querySelector('#startGameBtn');
+startButton.addEventListener("click", function() {
+    let playerName = nameInput.value;
+    const startScreen = document.querySelector(".start-screen");
+    startScreen.style.display = "none";
+    const gameBox = document.querySelector(".box");
+    gameBox.style.display = "flex";
+    const playerNameDisplay = document.getElementById("playerName");
+    playerNameDisplay.textContent = playerName;
+  });
+
 let choice = ["rock", "paper", "scissors"];
 let ComputerChoice;
 let UserChoice;
@@ -24,7 +36,6 @@ function getUserChoice(e) {
     UserChoice = e.currentTarget.getAttribute('data-choice');  
     console.log(`User chose: ${UserChoice}`);  
 }
-
 
 const rock = document.querySelector('.rock');
 rock.addEventListener('click', (e) => {
