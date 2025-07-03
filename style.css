@@ -2,8 +2,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./back.jpg");
-    background-size: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .start-screen{
@@ -14,7 +12,7 @@ body{
     width: 600px;
     height: 900px;
     background-image:url("./background.png");
-    background-size: cover;
+    background-size: contain;
     border: solid 10px #f8b394;
     color: #f8b394;
     border-radius: 10px;

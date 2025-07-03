@@ -79,16 +79,13 @@ function playRound() {
     roundCount++;
 
 
-    if (roundCount === 5) {
-        
-        if (userScore > computerScore) {
-            result.textContent = "YOU WIN THE GAME!";
-        } else if (userScore < computerScore) {
-            result.textContent = "YOU LOSE THE GAME!";
-        } else {
-            result.textContent = "THE GAME IS A DRAW!";
-        }
-
+    if (userScore===5) {
+        result.textContent = "YOU WIN THE GAME!";
+        rock.disabled = true;
+        paper.disabled = true;
+        scissors.disabled = true;
+    } else if (computerScore===5){
+        result.textContent = "YOU LOSE THE GAME!";
         rock.disabled = true;
         paper.disabled = true;
         scissors.disabled = true;
